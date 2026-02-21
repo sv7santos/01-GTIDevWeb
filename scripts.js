@@ -1,5 +1,7 @@
-const botao = documento.getElementById("botaoDesafio");
+document.addEventListener("DOMContentLoaded", function() {
+  const botao = document.getElementById("botaoDesafio");
 
-botao.addEventListener("Click", function() {
-  alert("Parabéns! Você concluiu o desafio!");
+  botao.addEventListener("click", function() {
+    alert("Parabéns! Você concluiu o desafio!");
+  });
 });
