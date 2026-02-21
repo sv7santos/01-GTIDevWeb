@@ -1,2 +1,5 @@
-// De propósito, este arquivo começa “quieto”.
-// O desafio pede uma alteração simples aqui.
+const botao = documento.getElementById("botaoDesafio");
+
+botao.addEventListener("Click", function() {
+  alert("Parabéns! Você concluiu o desafio!");
+});
